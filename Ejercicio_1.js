@@ -72,7 +72,7 @@ while(flag)
         stockModify();
         break;
       case "3":
-        idSale = sales.length() + 1;
+        idSale = sales.length + 1;
         idArticle = prompt("Inserte el codigo del articulo a modificar");
         quantity = parseInt(prompt("Inserte la cantidad vendida", "0"));
         createNewSale(idSale, idArticle, quantity);
