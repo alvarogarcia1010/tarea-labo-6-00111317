@@ -23,7 +23,7 @@ function showAverageSales()
     averageSale += sale.salePrice;
   }
 
-  averageSale = averageSale / sales.length();
+  averageSale = averageSale / sales.length;
 
   alert("El promedio de ventas es: " + averageSale);
 
